@@ -9,7 +9,7 @@ const AllToys = () => {
     // const [searched, setSearched] = useState(false)
     // const visibleToys = searched? filteredToys.slice(0,limit): toys.slice(0, limit)
     useEffect(() => {
-        fetch('https://toy-server-pi.vercel.app/toys')
+        fetch(' https://toy-shop-server-phi.vercel.app/toys')
             .then(res => res.json())
             .then(data => setToys(data))
     }, [])

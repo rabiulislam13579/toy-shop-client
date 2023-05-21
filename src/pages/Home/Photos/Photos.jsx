@@ -4,7 +4,7 @@ import ShowPhoto from './ShowPhoto';
 const Photos = () => {
     const [photos,setPhotos]= useState([])
     useEffect(()=>{
-        fetch('https://toy-server-pi.vercel.app/toys')
+        fetch(' https://toy-shop-server-phi.vercel.apptoys')
         .then(res=>res.json())
         .then(data=>setPhotos(data))
     },[])

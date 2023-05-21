@@ -18,14 +18,14 @@ const AddToy = () => {
 
         const dataObj={name,category, toyName, photo, email, price, quantity};
 
-        fetch('https://toy-server-pi.vercel.app/toys',{
+        fetch(' https://toy-shop-server-phi.vercel.app/toys',{
             method: 'POST',
             headers:{
                 'content-type': 'application/json'
             },
             body: JSON.stringify(dataObj)
         })
-        fetch('https://toy-server-pi.vercel.app/bookings',{
+        fetch(' https://toy-shop-server-phi.vercel.app/bookings',{
             method: 'POST',
             headers:{
                 'content-type': 'application/json'
